@@ -12,6 +12,7 @@ const LoginPage = () => {
   const searchParams = useSearchParams();
   const [error, setError] = useState("");
   const { data: session, status: sessionStatus } = useSession();
+  
 
   useEffect(() => {
     // Check if session expired
